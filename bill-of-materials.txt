@@ -1,0 +1,47 @@
+"Cmoy 47" Clone Variant Amp
+Bill of Materials
+
+Product name: 47 AMP
+PCB name: CAI-103
+PCB design: 3118-CAI
+
+--
+
+Capacitors
+
+Electrolytic
+C6, C8 - 10uf 25V - Quantity: 2
+C5, C7 - 220uf 25V - Quantity: 2
+C1, C4 - 470uf 25V - Quantity: 2
+
+Film
+C2, C3 - 0.1uf 100V [tolerance: K - 10%] - Quantity: 2
+
+
+Resistors
+Note: All resistors are metal film type at 1% tolerance, rated at 0.25W.
+
+R6, R7, R11, R12 - 47R - Quantity: 4
+R1, R2, R4, R9 - 4.7K - Quantity: 4
+R3, R5, R10 - 10K - Quantity: 3
+R8, R13 - 100K - Quantity: 2
+
+
+ICs
+U1, U2 - LM358, NE5532, TL072, TLE2072 - Quantity: 2
+
+
+Misc
+U1, U2 - 8-Pin Sockets - Quantity: 2
+P1, P2 - 3.5mm Audio Jack [PJ-320D] - Quantity: 1
+RP1 - Potentiometer [Bourns PTD90-like], 50KOhm - Quantity: 1
+D1 - LED, 5mm - Quantity: 1
+12-18V marking - 5.1mm x 2.1mm barrel jack - Quantity: 1
+
+
+Notes
+RP1 is based on the Bourns PTD90 series 2-ganged potentiometer on the original
+PCB. If the build is used for another design, any 50K ohm, dual-ganged linear
+potentiometer can be used.
+
+Despite the board saying 12-18V, the circuit can take 9V just fine.
